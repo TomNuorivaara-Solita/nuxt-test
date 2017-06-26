@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <p>Hello World!</p>
+    <p>Hooray</p>
   </section>
 </template>
 
