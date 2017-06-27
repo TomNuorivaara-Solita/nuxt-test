@@ -27,7 +27,7 @@ module.exports = {
   */
   css: [
     // Sass file in the project
-    { src: 'assets/css/style.scss', lang: 'scss' } // scss instead of sass
+    { src: '~/assets/css/style.scss', lang: 'scss' } // scss instead of sass
   ],
   /*
   ** Build configuration
