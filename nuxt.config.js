@@ -21,7 +21,7 @@ module.exports = {
   /*
   ** Base URL
   */
-  router: { base: '/my-project/' },
+  router: { base: '/nuxt-test/' },
   /*
   ** CSS and SCSS
   */
