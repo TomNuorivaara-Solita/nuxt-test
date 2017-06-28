@@ -35,7 +35,7 @@ export default {
     TopNav
   },
   asyncData ({ params }) {
-    return axios.get(`/data/news.json`)
+    return axios.get(`data/news.json`)
     .then(res => ({ news: res.data }))
   }
 }
