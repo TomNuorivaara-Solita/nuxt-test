@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/icon?family=Material+Icons|Roboto|Montserrat:200,400,500,700' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons|Roboto|Montserrat:200,400,500,700' }
     ]
   },
   /*
@@ -33,6 +33,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['axios'],
     /*
     ** Run ESLINT on save
     */

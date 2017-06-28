@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title": "Tämä on uutisen otsikko",
+        "date": "2017-02-22",
+        "type": "news",
+        "categories": [
+            "category1",
+            "category2",
+            "category3"
+        ],
+        "header-image-url": "header image url goes here",
+        "body": [
+            {
+                "content-type": "intro",
+                "content": "Tämä on uutisen alkuun tuleva teksti."
+            },
+            {
+                "content-type": "body-text",
+                "content": "Tämä on uutisen leipätekstiä."
+            },
+            {
+                "content-type": "quote",
+                "content": "Tämä on lainaus."
+            },
+            {
+                "content-type": "image",
+                "img-url": "image url goes here",
+                "img-caption": "Tämä on kuvan kuvateksti."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Tämä on toisen uutisen otsikko",
+        "date": "2017-03-23",
+        "type": "news",
+        "categories": [
+            "category1",
+            "category2",
+            "category3"
+        ],
+        "header-image-url": "header image url goes here",
+        "body": [
+            {
+                "content-type": "intro",
+                "content": "Tämä on toisen uutisen alkuun tuleva teksti."
+            },
+            {
+                "content-type": "body-text",
+                "content": "Tämä on toisen uutisen leipätekstiä."
+            },
+            {
+                "content-type": "quote",
+                "content": "Tämä on toinen lainaus."
+            },
+            {
+                "content-type": "image",
+                "img-url": "image url goes here",
+                "img-caption": "Tämä on toisen kuvan kuvateksti."
+            }
+        ]
+    }
+]
