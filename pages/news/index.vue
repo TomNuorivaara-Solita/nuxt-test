@@ -2,27 +2,27 @@
   <div>
     <top-nav></top-nav>
     <content class="content">
-        <section class="content__section">
-            <div class="row" style="margin-top:4rem;">
-                <div class="col-xs">
-                    <nuxt-link to="/"><button class="button"><i class="button__icon material-icons md-light md-md">home</i><span class="button__text">Etusivu</span></button></nuxt-link>
-                    <button class="button" @click="toggleFilter"><i class="button__icon material-icons md-light md-md">home</i><span class="button__text">Filter</span></button>
-                </div>
+      <section class="content__section">
+        <div class="row" style="margin-top:4rem;">
+          <div class="col-xs">
+            <nuxt-link to="/"><button class="button"><i class="button__icon material-icons md-light md-md">home</i><span class="button__text">Etusivu</span></button></nuxt-link>
+            <button class="button" @click="toggleFilter"><i class="button__icon material-icons md-light md-md">filter_list</i><span class="button__text">Filter</span></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs">
+            <h1 class="h1">Tällä sivulla on uutisia.</h1>
+          </div>
+        </div>
+        <section v-for="article in items" :key="article">
+          <div class="row">
+            <div class="col-xs">
+              <h2 class="h2">{{ article.title }}</h2>
+              <p>{{ article.body[0].content }}</p>
             </div>
-            <div class="row">
-                <div class="col-xs">
-                    <h1 class="h1">Tällä sivulla on uutisia.</h1>
-                </div>
-            </div>
-            <section v-for="article in items" :key="article">
-                <div class="row">
-                    <div class="col-xs">
-                        <h2 class="h2">{{ article.title }}</h2>
-                        <p>{{ article.body[0].content }}</p>
-                    </div>
-                </div>
-            </section>
+          </div>
         </section>
+      </section>
     </content>
   </div>
 </template>
