@@ -45,7 +45,7 @@
           <div class="row">
               <section class="frontpage-button-area">
                   <nuxt-link to="/news"><button class="button"><i class="button__icon material-icons md-light md-md">info</i><span class="button__text">Tiedotteet</span></button></nuxt-link>
-                  <a href="#"><button class="button"><i class="button__icon material-icons md-light md-md">format_quote</i><span class="button__text">Artikkelit</span></button></a>
+                  <nuxt-link to="/test"><button class="button"><i class="button__icon material-icons md-light md-md">format_quote</i><span class="button__text">Artikkelit</span></button></nuxt-link>
                   <a href="#"><button class="button"><i class="button__icon material-icons md-light md-md">event</i><span class="button__text">Tapahtumat</span></button></a>
               </section>
           </div>

@@ -34,11 +34,6 @@ export default {
   components: {
     TopNav
   },
-  data () {
-    return {
-      news: []
-    }
-  },
   asyncData ({ params }) {
     return axios.get(`/data/news.json`)
     .then(res => ({ news: res.data }))
