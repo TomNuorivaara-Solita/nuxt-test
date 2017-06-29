@@ -40,7 +40,7 @@ export default {
     }
   },
   asyncData ({ params }) {
-    return axios.get(`/data/news.json`)
+    return axios.get(`http://127.0.0.1:3000/nuxt-test/data/news.json`)
     .then(res => ({ news: res.data }))
     .catch(error => console.log(error))
   }
