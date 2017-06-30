@@ -49,9 +49,11 @@ export default {
       return this.isFiltered ? this.news.slice(0, 1) : this.news
     }
   },
-  data: {
-    isFiltered: false,
-    news: []
+  data () {
+    return {
+      isFiltered: false,
+      news: []
+    }
   },
   asyncData ({ params }) {
     return axios.get(`https://raw.githubusercontent.com/TomNuorivaara-Solita/nuxt-test/master/static/data/news.json`)
